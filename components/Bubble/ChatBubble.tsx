@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils/cn";
 import React from "react";
 
-
 interface ChatBubbleProps {
   message: string;
   sender: "user" | "ai";

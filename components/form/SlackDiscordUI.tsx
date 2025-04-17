@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import Sidebar from "./Bar/SideBar";
-import ChatPanel from "./Panel/ChatPanel";
-import ProfileSidebar from "./Bar/ProfileSideBar";
+import Sidebar from "../Bar/SideBar";
+import ChatPanel from "../Panel/ChatPanel";
+import ProfileSidebar from "../Bar/ProfileSideBar";
 
 const SlackDiscordUI = () => {
   const [workspaces, setWorkspaces] = useState([

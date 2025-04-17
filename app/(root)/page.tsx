@@ -1,12 +1,8 @@
-import SlackDiscordUI from '@/components/form/SlackDiscordUI'
-import React from 'react'
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
-      <SlackDiscordUI/>
+      <h1>Hello, world!</h1>
     </div>
-  )
+  );
 }
-
-export default Home
